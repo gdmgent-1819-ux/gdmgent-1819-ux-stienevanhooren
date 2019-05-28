@@ -2,6 +2,6 @@
 
 - Voornaam: Stiene
 - Familienaam:  Vanhooren
-- Studentnummer: 1231321
+- Studentnummer: 106329
 - Klasgroep: 1GMB
 - UX prototype link: 
