@@ -7,6 +7,181 @@
 @import url('components/buttons.css');
 @import url('components/forms.css');
 
-p{
-  color: red;
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'PT Mono';
+  }
+  
+  header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(fotoUx/surface-wall-white-1323712.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  
+.logo {
+    height: 100px;
+    width: 200px;
+    color: #000000;
+    margin-left: 40px;
+    vertical-align: top;
+    display: inline-block;
+   
+  }
+
+  nav.mainnav1 {
+    width: 100%;
+  }
+  nav ul.mainnav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul.mainnav li:first-child {
+    flex-grow: 1;
+  }
+  nav ul.mainnav li.active, nav ul.mainnav li.nav{
+    margin-top: 25px;
+    margin-right: 25px;
+  }
+  
+  nav ul.mainnav li a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  nav ul.mainnav li.active a,
+  nav ul li:hover a {
+    color: #B63A6D;
+  }
+
+  .fa-chevron-down{
+    color: #B63A6D;
+    position: absolute;
+    top: 85%;
+    left: 47%;
+    text-decoration-line: none;
+    
+  }
+  .logo1{
+    width: 300px;
+    position: absolute;
+    top: 34%;
+    left: 39%
+  }
+
+
+  #row1, .row2, .row3{
+    display: flex;
+    justify-content: stretch;
+    height: 400px;
+  }
+  .text{
+    width: 540px;
+    text-align: center;
+  }
+  .image{
+    width: 911px;
+  }
+
+  .h1{
+    margin-top: 120px;
+    text-align: center;
+    border-bottom: 3px solid #B63A6D;
+    font-size: 46px;
+    display: inline-block;
+  }
+
+  .p{
+    margin-top: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .row2, .row3{
+    margin-top: 207px;
+  }
+
+  .li{
+    font-size: 23px;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 80px;
+  }
+
+
+
+  footer{
+    background-image: url(fotoUx/surface-wall-white-1323712.jpg);
+    height: 90px;
+    width: 100%;
+    margin-top: 217px;
+  }
+
+  nav ul.footnav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  nav ul.footnav li a , nav ul.footnav li.foot, nav ul.footnav li.street{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: #000000;
+  }
+ .foot{
+   font-size: 50px;
+   margin-left: 15px;
+ }
+ .street{
+   margin-top: 20px;
+ }
+.icon{
+  margin-top: 15px;
+  margin-right: 20px;
 }
+
+nav ul.footnav li:first-child{
+  flex-grow: 1;
+}
+nav ul.footnav li:nth-child(2){
+  flex-grow: 1;
+}
+
+ .fa-instagram, .fa-facebook{
+   color: #B63A6D;
+ }
+
+  @media screen and (max-width:900px) {
+    .row1, .row2, .row3{
+      display: flex;
+      flex-direction: column;
+      height: auto;
+    }
+  }
+  
+
+ @media screen and (max-width:600px) {
+  .row1, .row2, .row3{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  nav.mainnav1{
+    opacity: 0;
+  }
+ }
+
+
