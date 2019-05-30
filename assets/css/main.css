@@ -11,7 +11,7 @@ body{
 header {
     height: 100vh;
     width: 100%;
-    background-image: url(css/fotoUxkopie/surface-wall-white-1323712.jpg);
+    background-image: url(fotoUxkopie/surface-wall-white-1323712.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -117,7 +117,7 @@ img.image{
   }
 
   footer{
-    background-image: url(css/fotoUxkopie/surface-wall-white-1323712.jpg);
+    background-image: url(fotoUxkopie/surface-wall-white-1323712.jpg);
     width: 100%;
   }
 
