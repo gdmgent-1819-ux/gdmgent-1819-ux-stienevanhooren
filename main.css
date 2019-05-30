@@ -1,10 +1,30 @@
-  * {
+ :root {
+  /**
+   * Colour palette
+   */
+  --c-detail: #B63A6D;
+  --c-text:#000000;
+  --c-background: #EFEFEF;
+  --c-white: white;
+  /**
+   * Layout
+   */
+  --l-gutter: 1rem;
+
+  /**
+   * Typography
+   */
+
+  --t-homepage: 'PT Mono';
+  --t-other: 'PT Sans';
+} 
+* {
     padding: 0;
     margin: 0;
   }
   
   body {
-    font-family: 'PT Mono';
+    font-family: var(--t-homepage);
   }
   
   header {
@@ -21,7 +41,7 @@
 .logo {
     height: 100px;
     width: 200px;
-    color: #000000;
+    color: var(--c-text);
     margin-left: 40px;
     vertical-align: top;
     display: inline-block;
@@ -49,16 +69,16 @@
     display: inline-block;
     padding: 20px;
     text-decoration: none;
-    color: #000000;
+    color: var(--c-text);
   }
   
   nav ul.mainnav li.active a,
   nav ul li:hover a {
-    color: #B63A6D;
+    color: var(--c-detail);
   }
 
   .fa-chevron-down{
-    color: #B63A6D;
+    color: var(--c-detail);
     position: absolute;
     top: 85%;
     left: 47%;
@@ -89,7 +109,7 @@
   .h1{
     margin-top: 120px;
     text-align: center;
-    border-bottom: 3px solid #B63A6D;
+    border-bottom: 3px solid var(--c-detail);
     font-size: 46px;
     display: inline-block;
   }
@@ -130,7 +150,7 @@
     display: inline-block;
     padding: 20px;
     text-decoration: none;
-    color: #000000;
+    color: var(--c-text);
   }
  .foot{
    font-size: 50px;
@@ -152,7 +172,7 @@ nav ul.footnav li:nth-child(2){
 }
 
  .fa-instagram, .fa-facebook{
-   color: #B63A6D;
+   color: var(--c-detail);
  }
 
   @media screen and (max-width:900px) {
