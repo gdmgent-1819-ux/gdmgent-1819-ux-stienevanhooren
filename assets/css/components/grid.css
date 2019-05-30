@@ -1,0 +1,23 @@
+
+.row {
+  --col-01: calc(100% * 1 / var(--cols, 12));
+  --col-05: calc(100% * 5 / var(--cols, 12));
+  --col-07: calc(100% * 7 / var(--cols, 12));
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  flex: 0 0 var(--col-01);
+}
+
+.col-5 {
+  flex: 0 0 var(--col-05);
+}
+
+.col-7 {
+  flex: 0 0 var(--col-07);
+}
+
+
+

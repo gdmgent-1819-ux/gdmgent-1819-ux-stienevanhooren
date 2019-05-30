@@ -1,26 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i');
+
 
 :root {
   /**
    * Colour palette
    */
-  --c-primary: hsl(190, 100%, 40%);
 
-  /**
-   * Layout
-   */
-  --l-gutter: 1rem;
+  --c-detail: #B63A6D;
+  --c-text:#000000;
+  --c-background: #EFEFEF;
+  --c-white: white;
+ 
 
   /**
    * Typography
    */
-  --t-primary: Arial, Helvetica, sans-serif;
-  --t-secondary: Arial, Helvetica, sans-serif;
-  --t-tertiary: monospace;
 
-  --t-headline: var(--t-primary);
-  --t-subtitle: var(--t-primary);
-  --t-body: var(--t-secondary);
-  --t-code: var(--t-tertiary);
+
+  --t-homepage: 'PT Mono';
+  --t-other: 'PT Sans';
+
 }
-
-
