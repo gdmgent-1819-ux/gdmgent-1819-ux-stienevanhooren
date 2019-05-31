@@ -4,16 +4,18 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: var(--t-homepage);
+   
 }
-header {
+header{
     height: 100vh;
     width: 100%;
-      background-color:#FF0000; 
+    background-color: lightgray;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -77,6 +79,7 @@ nav ul.mainnav li.active, nav ul.mainnav li.nav{
   }
 .container{
     width: 100%;
+   
 }
 
 .col-5,.col-7{
@@ -117,7 +120,7 @@ img.image{
   }
 
   footer{
-   background-color: lightgray;
+    background-color: lightgray;
     width: 100%;
   }
 
@@ -177,5 +180,11 @@ nav ul.footnav li:nth-child(2){
 
   .h1{
     margin-left: 70px;
+  }
+  nav ul.footnav li:first-child{
+    margin-right: 150px;
+  }
+  nav ul.footnav li:nth-child(2){
+    margin-right: 350px;
   }
 }
