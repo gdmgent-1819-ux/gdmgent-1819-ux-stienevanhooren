@@ -11,7 +11,7 @@ body{
 header {
     height: 100vh;
     width: 100%;
-    background-image: url(fotoUx/surface-wall-white-1323712.jpg);
+    background-color: lightgray;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -117,7 +117,7 @@ img.image{
   }
 
   footer{
-    background-image: url(fotoUx/surface-wall-white-1323712.jpg);
+   background-color: lightgray;
     width: 100%;
   }
 
