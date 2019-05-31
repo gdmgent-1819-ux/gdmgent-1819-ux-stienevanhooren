@@ -11,7 +11,7 @@ body{
 header {
     height: 100vh;
     width: 100%;
-    background-color: lightgray;
+      background-color:#FF0000; 
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
